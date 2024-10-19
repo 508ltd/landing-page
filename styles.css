@@ -27,7 +27,7 @@ body {
     gap: 30px;
 }
 
-a, .hero-text .secondary {
+a, .hero-text .secondary, .action-text .secondary, .footer-text {
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
@@ -62,10 +62,14 @@ ul {
     color: #f9faf8;
     font-size: 18px;
     font-weight: bold;
-    padding: 4px 20px;
-    margin-top: 16px;
+    padding: 4px 25px;
     border: none;
     border-radius: 8px;
+}
+
+.hero-section .sign-up {
+    margin-top: 16px;
+
 }
 
 .info-section {
@@ -106,5 +110,59 @@ ul {
 
 .quote-section {
     background-color: #e5e7eb;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.quote-section div {
+    max-width: 800px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1f2937;
+    text-align: justify;
+}
+
+.quote-source {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: end;
+}
+
+.action-section {
+    padding: 70px 160px;
+}
+
+.container {
+    background-color: #3882f6;
+    border-radius: 16px;
+    padding: 50px 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.action-text .main {
+    font-size: 20px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.action-section .sign-up {
+    border: 2px solid #f9faf8;
+}
+
+.footer {
+    background-color: #1f2937;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
